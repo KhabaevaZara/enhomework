@@ -1,0 +1,52 @@
+import { WordItem } from '../types/game';
+
+export const wordList: WordItem[] = [
+  { word: "apple", hint: "Красный фрукт" },
+  { word: "banana", hint: "Желтый фрукт" },
+  { word: "orange", hint: "Цитрусовый фрукт" },
+  { word: "grape", hint: "Маленькие круглые фрукты" },
+  { word: "strawberry", hint: "Красная ягода" },
+  { word: "watermelon", hint: "Большой зеленый фрукт" },
+  { word: "pineapple", hint: "Тропический фрукт с колючками" },
+  { word: "mango", hint: "Сладкий тропический фрукт" },
+  { word: "peach", hint: "Мягкий фрукт с косточкой" },
+  { word: "cherry", hint: "Маленькая красная ягода" },
+  { word: "lemon", hint: "Кислый желтый фрукт" },
+  { word: "lime", hint: "Зеленый цитрусовый фрукт" },
+  { word: "coconut", hint: "Тропический фрукт с молоком" },
+  { word: "avocado", hint: "Зеленый фрукт с косточкой" },
+  { word: "kiwi", hint: "Пушистый коричневый фрукт" },
+  { word: "blueberry", hint: "Синяя ягода" },
+  { word: "raspberry", hint: "Красная ягода" },
+  { word: "blackberry", hint: "Черная ягода" },
+  { word: "plum", hint: "Фиолетовый фрукт" },
+  { word: "pear", hint: "Фрукт похожий на яблоко" },
+  { word: "house", hint: "Место где живут люди" },
+  { word: "car", hint: "Транспортное средство" },
+  { word: "book", hint: "Предмет для чтения" },
+  { word: "computer", hint: "Электронное устройство" },
+  { word: "phone", hint: "Устройство для звонков" },
+  { word: "table", hint: "Мебель для еды" },
+  { word: "chair", hint: "Мебель для сидения" },
+  { word: "bed", hint: "Мебель для сна" },
+  { word: "door", hint: "Вход в комнату" },
+  { word: "window", hint: "Отверстие в стене" },
+  { word: "cat", hint: "Домашнее животное" },
+  { word: "dog", hint: "Лучший друг человека" },
+  { word: "bird", hint: "Животное с крыльями" },
+  { word: "fish", hint: "Животное в воде" },
+  { word: "elephant", hint: "Большое серое животное" },
+  { word: "tiger", hint: "Полосатый хищник" },
+  { word: "lion", hint: "Король джунглей" },
+  { word: "bear", hint: "Большое мохнатое животное" },
+  { word: "rabbit", hint: "Маленькое животное с ушами" },
+  { word: "mouse", hint: "Маленький грызун" }
+];
+
+export const wordleWords: string[] = [
+  "apple", "house", "water", "happy", "music", "dream", "light", "peace", "smile", "heart",
+  "ocean", "river", "mountain", "forest", "garden", "flower", "sunset", "morning", "evening", "night",
+  "friend", "family", "mother", "father", "sister", "brother", "child", "baby", "woman", "man",
+  "school", "teacher", "student", "lesson", "study", "learn", "know", "think", "remember", "forget",
+  "work", "job", "money", "time", "today", "tomorrow", "yesterday", "week", "month", "year"
+];

@@ -1,0 +1,81 @@
+{
+  "name": "English Homework",
+  "short_name": "English HW",
+  "description": "Платформа для изучения английского языка с интерактивными заданиями и играми",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#A2AF9B",
+  "theme_color": "#A2AF9B",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "ru",
+  "categories": ["education", "games", "productivity"],
+  "icons": [
+    {
+      "src": "/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/screenshot-mobile-1.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/images/screenshot-desktop-1.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Тесты",
+      "short_name": "Тесты",
+      "description": "Быстрый доступ к тестовым заданиям",
+      "url": "/test",
+      "icons": [
+        {
+          "src": "/images/icon-test.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Игры",
+      "short_name": "Игры",
+      "description": "Быстрый доступ к играм",
+      "url": "/games",
+      "icons": [
+        {
+          "src": "/images/icon-games.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Wordle",
+      "short_name": "Wordle",
+      "description": "Быстрый доступ к игре Wordle",
+      "url": "/wordle",
+      "icons": [
+        {
+          "src": "/images/icon-wordle.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
