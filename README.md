@@ -91,7 +91,7 @@ english/
 │   └── index.css        # Основные стили
 ├── package.json         # Зависимости и скрипты
 ├── tsconfig.json        # Конфигурация TypeScript
-└── README.md           # Документация
+└── README.md           # Документация(Readme)
 ```
 
 
